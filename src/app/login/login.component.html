@@ -1,0 +1,37 @@
+<div class="container">
+        <div class="col-12">
+            <div class="col-4 formholder">
+                <div class="row" style="padding: 15px 0px 0px 70px;">
+                    <div class="imageholder" >
+                        <img src="../../assets/ICON/man.png" style="height: 99px;width: 100px;border-radius: 50%;">   
+                    </div>
+                </div>
+                <form>
+                    <span *ngIf="show" style="color:red;font-size: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;">Id password wrong</span>
+                    <div class="row" style="padding: 30px 0px 0px 30px;">
+                        <span style="border-bottom: 1px #FFFFFF solid;">
+                            <mat-icon style="color: #FFFFFF;height: 16px;"> local_post_office</mat-icon>
+                            <input placeholder="Email" type="text" name="firstname" class = "form-control" [(ngModel)] ="username">
+                        </span>
+                    </div>
+
+                    <div class="row" style="padding: 30px 0px 0px 30px;">
+                        <span style="border-bottom: 1px #FFFFFF solid;">
+                            <mat-icon style="color: #FFFFFF;height: 20px;">https</mat-icon>   
+                            <input  placeholder="password" type="text" name="firstname" class = "form-control" [(ngModel)]= "password">
+                        </span>
+                    </div>
+                    <div class="row" >
+                        <section>
+                            <mat-checkbox>Remember me</mat-checkbox>
+                            <label style="color: #FFFFFF ;font-size: 10px;margin-left: 35px;">Forget password</label>
+                          </section>  
+                    </div>
+                    <div class="row" style="text-align: center;">
+                        <button (click)="login()">Login</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>

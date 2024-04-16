@@ -1,0 +1,35 @@
+.navholder{
+    width: 100%;
+    height: 100px;
+    background-color: #78a0f7;
+}
+.logoname{
+    color: #888163;
+    background-image: linear-gradient(to right,  rgb(194, 179, 179),rgb(241, 196, 204), #c4e64d);
+    font-family: "hevletca";
+    text-align: center;
+}
+.navmenulistholder{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navmenulist{
+    background-color: #FFFFFF;
+    list-style-type: none;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -30px;
+    display: none;
+    box-shadow: rgb(238, 236, 236) 2px 2px 2px 2px;
+    
+}
+li{
+    padding: 10px;
+}
+.btnmenu{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+}

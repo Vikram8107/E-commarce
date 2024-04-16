@@ -1,0 +1,39 @@
+.container{
+    background-image: linear-gradient(to right, rgb(95, 37, 92), rgb(117, 46, 131),rgb(94, 77, 77),rgb(81, 31, 97));
+    height: 100vh;
+    opacity: 0.9; 
+}
+.formholder{
+    position: absolute;
+    border-radius: 10px;
+    border: 1px rgb(221, 219, 219) solid;
+    background-color:transparent; 
+    height: 300px;  
+    width: 250px;
+    top: 25%;
+    left: 36%;
+}
+.imageholder{
+    height:90px;
+    width:90px;
+    border:1px rgb(235, 233, 233) solid;
+    border-radius: 50%;
+    padding: 0px 5px 5px 0px;
+}
+input{
+    border:none;
+    background:none;
+    --placeHolder-color:#FFFFFF;
+}
+::ng-deep .mat-mdc-checkbox label {
+    cursor: pointer;
+    font-size: 10px;
+    color:#FFFFFF;
+    
+}
+button{
+   background-color: #48234d;
+    padding: 5px 25px 5px 25px;
+    border: none;
+    border-radius: 10px;
+}

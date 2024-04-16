@@ -1,0 +1,38 @@
+ <div class="navholder">
+        <div class="row">
+            <h4 class="logoname">Order24</h4>
+        </div>
+        <div class="navmenulistholder">
+            <div>
+                <button style="height: 30px;width: 30px;margin-left: 15px;border: none;margin-top: 12px;" class="fa fa-bars" (click)="showlist()"></button>
+                <ul class="navmenulist" id="navlist" (click)="hidelist()">
+                    <li>User Name</li>
+                    <li>Heath Zone</li>
+                    <li>Mobiles</li>
+                    <li>Electronics</li>
+                    <li>Grocery</li>
+                    <li>Toys</li>
+                </ul>
+            </div>
+           <div>
+            <button class="btnmenu fa fa-shopping-cart" (click)="orderpage()"></button>
+            <button class="btnmenu fa fa-plus" (click)="watchlistpage()"></button>
+            <button class="btnmenu fa fa-user" (click)="detailpage()"></button>
+           </div>  
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12" >
+            <h4 style="height: 10px;padding-left: 10px;">Cloths</h4>
+        <div class="col-4" style="border:1px black solid;float: left;margin: 10px;padding: 10px;width: 200px;height: 300px;" *ngFor="let item of pdata" >
+            <div class="row">
+                <img src="../../assets/ICON/productimg.png">
+            </div>
+            <div class="row" >
+                <label style="max-width: 40px;">{{item.pname}}</label><br>
+                <label>{{item.price}}</label>
+            </div>
+        </div>
+        </div>
+    </div>
+

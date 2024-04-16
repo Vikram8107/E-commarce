@@ -1,0 +1,36 @@
+.productimage{
+    border: 1px rgb(184, 179, 179) solid;
+    height: 80px;
+    width: 70px;
+    padding: 2px;
+}
+.prodcutname{
+    font-weight: 600;
+    font-family: "Segoe UI";
+}
+::ng-deep .mat-form-field-underline {
+	display: none;
+  }
+  select{
+    border: none;
+  }
+  .optionbtn{
+    width: 90px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-top: 1px black solid;
+    border-left: none;
+    border-right: 1px black solid;
+    border-bottom: none;
+    font-size: 12px;
+  }
+  .row{
+    margin-top: 4px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 5px 5px;
+  }
+  .prisedetaillabels{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+  }
